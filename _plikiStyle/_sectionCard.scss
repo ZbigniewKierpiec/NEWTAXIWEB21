@@ -1,0 +1,100 @@
+.card {
+
+  width: 100%;
+  height: 30vh;
+  background-color: black;
+  display: flex;
+  justify-content: space-evenly;
+  overflow: hidden;
+}
+
+.card__links {
+  width: 20%;
+  height: 100%;
+  margin-top: 0.7em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  
+}
+.links__link {
+  list-style: none;
+  margin: 0.5em 0;
+  transition: 0.6s;
+}
+
+.links__link:hover {
+  transform: translateX(20px);
+}
+.links__link a {
+  text-decoration: none;
+  font-size: 1.1em;
+  color: white;
+  font-family: monospace;
+
+  padding: 0.6em;
+}
+.links__h2 {
+  color: white;
+  text-transform: uppercase;
+  font-family: monospace;
+  font-size: 1.5em;
+}
+
+.card__pay {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.pay__h2 {
+  color: white;
+  font-size: 0.9em;
+  font-family: monospace;
+  margin: 20px 0;
+}
+
+.pay__sumUp {
+  width: 100%;
+  height: 30%;
+  background-image: url(/Assets/sumapp.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.pay__credit {
+  width: 100%;
+  height: 50%;
+  background-image: url(/Assets/615-6155337_all-major-credit.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.card__social {
+  width: 20%;
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+}
+
+#social__list {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+#social__list .list__li {
+  width: 60px;
+  height: 60px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#social__list .list__li i {
+  font-size: 1.5em;
+  color: white;
+}
